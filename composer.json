@@ -1,0 +1,33 @@
+{
+  "name": "cse/dom-manager",
+  "description": "A simple library for management the DOM (XML, HTML) document.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eliseev Alexey",
+      "email": "a.k.eliseev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-dom": "*",
+    "ext-libxml": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.*",
+    "fzaninotto/faker": "*",
+    "mockery/mockery": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "cse\\DOMManager\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  }
+}
